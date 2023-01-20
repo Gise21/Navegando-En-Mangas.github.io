@@ -1,0 +1,140 @@
+.night{
+    background:black;
+    color:white;
+}
+
+.chapter-thumbnail {
+    margin-top: 10px;
+    white-space: pre-line;
+    overflow: hidden;
+    max-height: 150px;
+    height : 150px;     
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapter-thumbnail img {
+    width: 200px;
+    height: 100%;
+}
+
+.page-header  {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.sinosis {
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+    width: 100%;  
+}
+
+img {
+    width: 100%;
+}
+
+#mainViewer {
+    margin-top: 10px;
+    white-space : pre-line;   /* preserve the original line breaks (see above)*/
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(198, 212, 212);
+    font-size: 20px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: rgb(145, 205, 205);
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.502);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+}
+
+.instruccion {
+    max-width: 600px;
+    font-size: smaller;
+    text-align: center;
+    background-color: rgba(192, 231, 240, 0.689);
+}
+
+.page-header .boton-selector {
+    position: absolute;
+    right: 0;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+	padding: 10px;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+}
+
+.breadcrumbs__item:not(:last-of-type)::after {
+	content: "\203a";
+	margin: 0px 5px;
+	color: #463a3a;
+	-webkit-text-stroke: 1px #463a3a;
+}
+
+.breadcrumbs__link {
+	text-decoration: none;
+	color: #696161;
+}
+
+.breadcrumbs__link:hover {
+	text-decoration: underline;
+}
+
+.breadcrumbs__link--active {
+	color: #007795;
+	font-weight: 600;
+}
+
+/* / BREADCRUMBS */
+
+
