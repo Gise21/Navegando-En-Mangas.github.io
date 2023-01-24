@@ -25,6 +25,10 @@
     flex-direction: column;
 }
 
+h1 {
+    z-index: 3;
+}
+
 button {
     margin-top: 10px;
 }

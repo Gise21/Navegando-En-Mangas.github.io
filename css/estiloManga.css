@@ -269,3 +269,42 @@ article h1 {
         transition: all 300ms cubic-bezier(1, 0, 0, 1);
     }
 }
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 5%;
+	padding: 10px;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+}
+
+.breadcrumbs__item:not(:last-of-type)::after {
+	content: "\203a";
+	margin: 0px 5px;
+	color: #463a3a;
+	-webkit-text-stroke: 1px #463a3a;
+}
+
+.breadcrumbs__link {
+	text-decoration: none;
+	color: #696161;
+}
+
+.breadcrumbs__link:hover {
+	text-decoration: underline;
+}
+
+.breadcrumbs__link--active {
+	color: #950000;
+	font-weight: 600;
+}
+
+/* / BREADCRUMBS */
