@@ -247,7 +247,7 @@ article h1 {
 
 /* RESPONSIVE WEB */
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
     .container-content  {
         width: 100%;
         flex-direction: column;
@@ -257,6 +257,11 @@ article h1 {
         box-shadow: 0 0 0 0;
     }
 
+    .info-galeria {
+        width: auto;
+        text-align: center;
+        margin-right: 5%;
+    }
 
 }
 
@@ -267,6 +272,24 @@ article h1 {
     
     .container-all{
         transition: all 300ms cubic-bezier(1, 0, 0, 1);
+    }
+
+    .info-galeria {
+        width: auto;
+        text-align: center;
+        margin-right: 5%;
+    }
+
+    .container-info-cover h1{
+        font-size: xx-large;
+        max-width: 250px;
+        overflow-x: hidden;
+    }
+
+    .container-info-cover p{
+        font-size: 20px;
+        max-width: 250px;
+        overflow-x: hidden;
     }
 }
 
