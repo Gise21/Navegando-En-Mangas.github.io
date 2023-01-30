@@ -29,7 +29,13 @@ h1 {
     z-index: 3;
 }
 
-button {
+.btn-group {
+    z-index: 4;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.menu-cap {
     margin-top: 10px;
 }
 
@@ -105,6 +111,7 @@ nav {
     right: 0;
     margin-right: 8%;
     margin-top: 50px;
+    z-index: 4;
 }
 
 /* BREADCRUMBS */
